@@ -1,0 +1,19 @@
+{
+  "name": "IBMCodeChallenge",
+  "description": "https://github.com/IBMQuantum/backend-code-challenge",
+  "main": "index.js",
+  "scripts": {
+    "main": "node .",
+    "test": "jasmine"
+  },
+  "dependencies": {
+    "knex": "^0.19.5",
+    "knex-paginate": "^1.2.3"
+  },
+  "devDependencies": {
+    "dotenv": "^5.0.1",
+    "jasmine": "^3.1.0",
+    "mock-knex": "^0.4.0",
+    "postgre-sql": "^10.14"
+  }
+}
